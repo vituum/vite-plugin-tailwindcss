@@ -21,7 +21,7 @@ export default {
 ```
 
 * Don't forget to also add your `tailwind.config.js`, [learn more here](https://tailwindcss.com/docs/guides/vite).
-* If you want to add more PostCSS plugins, use add the via [css.postcss.plugins](https://vitejs.dev/config/shared-options.html#css-postcss).
+* If you want to add more PostCSS plugins, add them via [css.postcss.plugins](https://vitejs.dev/config/shared-options.html#css-postcss).
 * If you want to use `postcss.config.cjs` add `css.postcss: process.cwd()`, PostCSS config and it's plugins will be used instead
 
 Read the [docs](https://vituum.dev/config/plugins-options.html#vituum-postcss) to learn more about plugin options
