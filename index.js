@@ -2,14 +2,14 @@ import postcssImport from 'postcss-import'
 import postcssNesting from 'postcss-nesting'
 import postcssCustomMedia from 'postcss-custom-media'
 import tailwindcss from 'tailwindcss'
-import tailwindcssNesting from 'tailwindcss/nesting'
+import tailwindcssNesting from 'tailwindcss/nesting/index.js'
 import autoprefixer from 'autoprefixer'
 import { getPackageInfo, merge } from 'vituum/utils/common.js'
 
 const { name } = getPackageInfo(import.meta.url)
 
 /**
- * @type {import('@vituum/vite-plugin-tailwind/types/index').PluginUserConfig}
+ * @type {import('@vituum/vite-plugin-tailwindcss/types/index').PluginUserConfig}
  */
 const defaultOptions = {
     import: {},
@@ -20,7 +20,7 @@ const defaultOptions = {
 }
 
 /**
- * @param {import('@vituum/vite-plugin-tailwind/types/index').PluginUserConfig} options
+ * @param {import('@vituum/vite-plugin-tailwindcss/types/index').PluginUserConfig} options
  * @returns {import('vite').Plugin}
  */
 const plugin = (options = {}) => {
@@ -37,7 +37,7 @@ const plugin = (options = {}) => {
     return {
         name,
         enforce: 'pre',
-        /** @param {import('@vituum/vite-plugin-tailwind/types/viteUserConfig').ViteUserConfig} userConfig */
+        /** @param {import('@vituum/vite-plugin-tailwindcss/types/viteUserConfig').ViteUserConfig} userConfig */
         config (userConfig) {
             if (!userConfig?.css?.postcss && !userConfig?.css?.postcss?.plugins) {
                 userConfig.css = userConfig.css || {}

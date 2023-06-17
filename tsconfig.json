@@ -10,7 +10,7 @@
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
     "paths": {
-      "@vituum/vite-plugin-tailwind/*": ["./*"],
+      "@vituum/vite-plugin-tailwindcss/*": ["./*"],
       "vituum/*": ["./node_modules/vituum/src/*"]
     }
   },
