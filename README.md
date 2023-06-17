@@ -1,5 +1,5 @@
-<a href="https://npmjs.com/package/@vituum/vite-plugin-tailwind"><img src="https://img.shields.io/npm/v/@vituum/vite-plugin-tailwind.svg" alt="npm package"></a>
-<a href="https://nodejs.org/en/about/releases/"><img src="https://img.shields.io/node/v/@vituum/vite-plugin-tailwind.svg" alt="node compatility"></a>
+<a href="https://npmjs.com/package/@vituum/vite-plugin-tailwindcss"><img src="https://img.shields.io/npm/v/@vituum/vite-plugin-tailwindcss.svg" alt="npm package"></a>
+<a href="https://nodejs.org/en/about/releases/"><img src="https://img.shields.io/node/v/@vituum/vite-plugin-tailwindcss.svg" alt="node compatility"></a>
 
 # ⚡️🎨 ViteTailwindCSS
 Adds out of the box support for TailwindCSS with following PostCSS plugins:
