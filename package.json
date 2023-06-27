@@ -1,14 +1,15 @@
 {
   "name": "@vituum/vite-plugin-tailwindcss",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "type": "module",
   "main": "index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "tsc": "tsc",
     "eslint": "eslint '**/*.js' --fix"
   },
   "dependencies": {
-    "vituum": "^1.0.0-beta.3",
+    "vituum": "^1.0.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
     "postcss-import": "^15.1.0",
@@ -17,7 +18,7 @@
     "tailwindcss": "^3.3.2"
   },
   "devDependencies": {
-    "@types/node": "^20.3.1",
+    "@types/node": "^20.3.2",
     "vite": "^4.3.9",
     "eslint": "^8.43.0",
     "eslint-config-standard": "^17.1.0",
@@ -32,11 +33,11 @@
     "./types": "./types/*"
   },
   "engines": {
-    "node": ">=18.0.0",
+    "node": ">=16.0.0",
     "npm": ">=9.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vituum/vite-plugin-tailwind.git"
+    "url": "git+https://github.com/vituum/vite-plugin-tailwindcss.git"
   }
 }

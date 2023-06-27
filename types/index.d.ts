@@ -5,3 +5,5 @@ export interface PluginUserConfig {
     autoprefixer?: import('autoprefixer').Options
     tailwindcss?: import('tailwindcss').Config
 }
+
+export default function plugin(options?: PluginUserConfig) : import('vite').Plugin
