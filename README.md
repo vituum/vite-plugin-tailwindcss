@@ -2,11 +2,13 @@
 <a href="https://nodejs.org/en/about/releases/"><img src="https://img.shields.io/node/v/@vituum/vite-plugin-tailwindcss.svg" alt="node compatility"></a>
 
 # ⚡️🎨 ViteTailwindCSS
-Adds out of the box support for TailwindCSS with following PostCSS plugins:
+Adds out of the box support for TailwindCSS v3 with following PostCSS plugins:
 * [`postcss-import`](https://www.npmjs.com/package/postcss-import)
 * [`postcss-nesting`](https://www.npmjs.com/package/postcss-nesting)
 * [`postcss-custom-media`](https://www.npmjs.com/package/postcss-custom-media)
 * [`autoprefixer`](https://www.npmjs.com/package/autoprefixer)
+
+For TailwindCSS v4+ use the [official plugin](https://tailwindcss.com/docs/installation/using-vite).
 
 ## Basic usage
 
@@ -20,7 +22,7 @@ export default {
 }
 ```
 
-* Don't forget to also add your `tailwind.config.js`, [learn more here](https://tailwindcss.com/docs/guides/vite).
+* Don't forget to also add your `tailwind.config.js`, [learn more here](https://v3.tailwindcss.com/docs/guides/vite).
 * If you want to add more PostCSS plugins, add them via [css.postcss.plugins](https://vitejs.dev/config/shared-options.html#css-postcss).
 * If you want to use `postcss.config.cjs` add `css.postcss: process.cwd()`, PostCSS config and it's plugins will be used instead
 
