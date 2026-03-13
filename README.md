@@ -30,5 +30,5 @@ Read the [docs](https://vituum.dev/config/plugins-options.html#vituum-postcss) t
 
 ### Requirements
 
-- [Node.js LTS (24.x)](https://nodejs.org/en/download/)
+- [Node.js LTS (20.x)](https://nodejs.org/en/download/)
 - [Vite](https://vitejs.dev/)
