@@ -2,7 +2,7 @@ import postcssImport from 'postcss-import'
 import postcssNesting from 'postcss-nesting'
 import postcssCustomMedia from 'postcss-custom-media'
 import tailwindcss from 'tailwindcss'
-import tailwindcssNesting from 'tailwindcss/nesting'
+import tailwindcssNesting from 'tailwindcss/nesting/index.js'
 import autoprefixer from 'autoprefixer'
 import { getPackageInfo, deepMergeWith } from 'vituum/utils/common.js'
 
