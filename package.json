@@ -1,9 +1,16 @@
 {
   "name": "@vituum/vite-plugin-tailwindcss",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "type": "module",
   "main": "index.js",
   "types": "types/index.d.ts",
+  "description": "Vite plugin for TailwindCSS v3, adds out of the box support",
+  "keywords": [
+    "tailwindcss",
+    "vituum",
+    "vite",
+    "vite-plugin"
+  ],
   "scripts": {
     "lint": "npm run eslint && npm run tsc",
     "tsc": "tsc",
